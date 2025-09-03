@@ -46,7 +46,8 @@ client/
 
 ---
 
-## How to Run
+##  How to Run
+
 ```bash
 # Clone the repository
 git clone https://github.com/abhisheksingh3008/Book-Finder-App
