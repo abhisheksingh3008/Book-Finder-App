@@ -30,15 +30,15 @@ client/
 │── package-lock.json
 │── vite.config.js
 │── eslint.config.js
-|── README.md
+│── README.md
 │
-|── public/
+│── public/
 │   └── vite.svg          # Static assets (images, favicon, etc.)
-|
+│
 ├── src/                  # Main source code
-│── App.css               # Styles
-│── App.jsx               # Root React component
-│── main.jsx              # Entry point (Vite + ReactDOM.createRoot)
+│   │── App.css           # Styles
+│   │── App.jsx           # Root React component
+│   │── main.jsx          # Entry point (Vite + ReactDOM.createRoot)
 │
 ├── assets/
 │   └── react.svg
@@ -46,8 +46,7 @@ client/
 
 ---
 
-##  How to Run
-
+## **How to Run**
 ```bash
 # Clone the repository
 git clone https://github.com/abhisheksingh3008/Book-Finder-App
