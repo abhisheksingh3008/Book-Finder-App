@@ -20,7 +20,7 @@ It fetches data from the **Open Library API** and displays details such as title
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```bash
 Book-Finder-App/
 │── public/
