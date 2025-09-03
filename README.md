@@ -21,7 +21,7 @@ It fetches data from the **Open Library API** and displays details such as title
 ---
 
 ## Project Structure
-```bash
+```
 Book-Finder-App/
 client/
 │── .gitignore
@@ -44,10 +44,10 @@ client/
 │   └── react.svg
 └── node_modules/         # Installed dependencies (auto-generated)
 
----
+```
 
-## **How to Run**
-```bash
+## How to Run
+```
 # Clone the repository
 git clone https://github.com/abhisheksingh3008/Book-Finder-App
 
@@ -59,3 +59,6 @@ npm install
 
 # Start development server
 npm run dev
+
+```
+
