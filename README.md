@@ -23,14 +23,39 @@ It fetches data from the **Open Library API** and displays details such as title
 ## Project Structure
 ```bash
 Book-Finder-App/
-│── public/
-│   └── index.html         # Base HTML file
-│── src/
-│   ├── components/        # Reusable UI components (BookCard, SearchBar, etc.)
-│   ├── App.js             # Main application component
-│   ├── index.js           # Entry point
-│   ├── App.css            # Styles
-│   └── api.js             # API call functions
-│── package.json           # Dependencies & scripts
-│── README.md              # Documentation
-│── NOTES.md               # Developer notes
+client/
+│── .gitignore
+│── index.html
+│── package.json
+│── package-lock.json
+│── vite.config.js
+│── eslint.config.js
+|── README.md
+│
+|── public/
+│   └── vite.svg          # Static assets (images, favicon, etc.)
+|
+├── src/                  # Main source code
+│── App.css               # Styles
+│── App.jsx               # Root React component
+│── main.jsx              # Entry point (Vite + ReactDOM.createRoot)
+│
+├── assets/
+│   └── react.svg
+└── node_modules/         # Installed dependencies (auto-generated)
+
+---
+
+## How to Run
+```bash
+# Clone the repository
+git clone https://github.com/abhisheksingh3008/Book-Finder-App
+
+# Navigate to project folder
+cd client
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
